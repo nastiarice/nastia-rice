@@ -1,0 +1,13 @@
+#table1{
+    margin-left: 90%;
+    background-color: rgb(153, 153, 255); border: 0.015cm solid black;
+}
+.cell{
+    width: 5px; height: 5px; border: 0.015cm solid black;
+}
+#table2{
+    border: 0.015cm solid black; margin-left: 50%; margin-right: 50%; 
+}
+.cell1{
+    border: 0.015cm dotted black;
+}
