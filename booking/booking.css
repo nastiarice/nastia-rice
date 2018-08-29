@@ -1,0 +1,61 @@
+#top{
+background-color: #003580; 
+}
+#logo{
+    width: 150px; height: 25px; margin-left: 55%; margin-top: 10px; margin-right: 20%; margin-bottom: 0.5cm;
+}
+#butt1{
+margin-left: 20%; 
+}
+.a1 { margin-top: 0.2cm; margin-right: 0.2cm; color: #003580); background-color: white; font-weight: bold;
+font-size: 9pt; height: 0.7cm; border-radius: 3px; border: none; display: inline-block;
+ }
+#butt{margin-top: 0.15cm; margin-right: 0.15cm; color: white; background-color: transparent; font-weight: bold;
+    font-size: 9pt; height: 0.9cm; border-radius: 3px; border: 1px solid white; display: inline-block;
+}
+#flag{
+    border: none; background-color: transparent; margin-left: 0.6cm;
+}
+#flag2{
+    height: 17px; width: 18px;
+}
+#nis{
+    border: none; background-color: transparent;font-size: 11pt; margin-left: 0.5cm; color: white;
+}
+#place{
+    background-color:#1a4a8d;
+}
+.butt3{
+   padding: 10px; background-color: transparent; color: white; font-size: 10pt; border: none; border-radius: 3px; height: 1cm; margin-left: 3px; margin-bottom: 15px;
+}
+.butt3:hover{
+    background-color: #1a4a8d;}
+#text1{
+        margin-left: 987px; font-size: 18pt; color: #414141; font-weight: 600; 
+    }
+#text2{
+    margin-left: 961px; font-size: 10.5pt; color: #414141; font-weight: 400; margin-top: -18px;
+}
+#search{ background-color: #F5F5F5; border-bottom: 1px solid #ECEDEF;}
+
+#t1{border: 4px solid #FFC932; margin-left: 135px; border-radius: 4px;}
+input{ background: url(bed.png) no-repeat; padding-right: 40px; background-position: right center; border: none; }
+#in{border: none; display: inline; background-color: transparent; font-size: 10pt; font-weight: 500;}
+#out{border: none; display: inline; background-color: transparent; font-size: 10pt;font-weight: 500;}
+#num{border: none; display: inline; background-color: transparent; font-size: 10pt;font-weight: 500; }
+#cell3{ background-color: white; width: 6.2cm; text-align: center; padding-top: 10px; padding-bottom: 10px; padding-left: 8px; padding-right: 8px; border-left: 4px solid #FFC932; background-color: white; 
+   }
+#cell1{width: 13.6cm; text-align: right; border-radius: 4px; padding-top: 10px; padding-bottom: 10px; padding-left: 8px; padding-right: 8px; border-left: 4px solid #FFC932; background-color: white;}
+#cell2{ width: 5.5cm; text-align: center; padding-top: 10px; padding-bottom: 10px; padding-left: 8px; padding-right: 8px; border-left: 4px solid #FFC932; background-color: white;}
+#ser{ border: none; display: inline; background-color: transparent; font-size: 15pt; font-weight: 600; color: white;}
+#cell4{ text-align: center; background-color: #2371D8; width: 3.2cm; padding-top: 10px; padding-bottom: 10px; padding-left: 8px; padding-right: 8px; border-left: 4px solid #FFC932;}   
+#check1{margin-left: 1083px; font-size: 10.5pt;}
+#box1{width: 20px; height: 20px; margin-top: 20px; margin-bottom: 35px; }
+#telaviv, #eilat {margin-top: 50px; width: 14cm; height: 7cm; border-radius: 2px;
+}
+#telaviv{ margin-left: 17px; }
+#eilat{margin-left: 16px;}
+#telaviv:hover, #eilat:hover{border:1px solid #FFC932;;}
+#connect{border: 1px solid #B5B5B5; border-bottom: 2px solid #FFC932 ; width: 28.5cm;}
+
+

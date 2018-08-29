@@ -4,7 +4,7 @@
     left: 0;
   }
   #image1 {
-    position: relative; top: 30; left: 30; width: 10cm; height: 10cm;
+    position: relative; top: 30px; left: 30px; width: 10cm; height: 10cm;
     animation: pic1 4s infinite
   }
   #image2 {
@@ -14,12 +14,13 @@
   #dot{
     height: 110px;
     width: 110px;
-    background-color: transparent;
+    background-color: black;
     border-radius: 50%;
     position: absolute; top: 75px; left: 90px; width: 6cm; height: 6cm;
+    animation: cir2 4s infinite;
   }
   #dot:hover{
-    animation: cir 5s infinite;
+    animation: cir 4s infinite;
   }
   @keyframes pic1{
     
@@ -37,7 +38,12 @@
     100% {left: 90px; top: 75px;} 
 }
 @keyframes cir{
-from{width: 6cm; height: 6cm; background-color: transparent;}
-to{width: 100%; height: 100%; background-color: black;}
-   
+
+to{width: 100%; height: 100%; background-color: black;}}
+@keyframes cir2{
+0% {left: 75px; top: 90px;}
+25% {left: 360px; top: 75px;}   
+50% {left: 360px; top: 360px;}
+75% {left: 75px; top: 360px;}
+100% {left: 90px; top: 75px;} 
 }
