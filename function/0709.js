@@ -29,8 +29,20 @@ else{
 document.getElementById("p3").innerHTML="Small Letter";
 }}
 
+// דרך נוספת לעשות את התרגיל בעזרת טבלת אסקי ותנאי בתוך תנאי, במידה והערך בהכרח שווה ל1 נמשיך לתנאי השני, מידה והמספר שונה מאחד נמשיך ל'אחרת החיצוני':
+// function letter(){
+// str=document.getElementById("third").value;
+// if(str.length==1){
+//     if(str>='A'&&str<='Z'){
+//     document.getElementById("p3").innerHTML="Capital Letter";    
+//     }
+//     if(str>='a'&&str<='z'){
+//         document.getElementById("p3").innerHTML="Small Letter";    
+//     }
+// else{
+// document.getElementById("p3").innerHTML="Too Much";    
+// }}}}
 
-}
 function longshort(){
 str1=document.getElementById("fourth").value;
 str2=document.getElementById("fifth").value;
@@ -57,18 +69,17 @@ else{
 function palindrom(){
 strpal=document.getElementById("sixth").value;
 if(strpal.charAt(0)==strpal.charAt(3)&strpal.charAt(1)==strpal.charAt(2)){
-    document.getElementById("p6").innerHTML="Palindrom";
-}
+document.getElementById("p6").innerHTML="Palindrom";}
 else{
-    document.getElementById("p6").innerHTML="Not Palindrom";
-}}
+document.getElementById("p6").innerHTML="Not Palindrom";}
+}
 
 
 
 
 
 
-
+}
 
 
 
